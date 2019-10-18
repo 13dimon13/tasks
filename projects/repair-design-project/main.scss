@@ -1,0 +1,713 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #131313;
+}
+.header{
+    background-color: #131313;
+}
+.header-menu{
+    height: 11px;
+    max-width: 1256px;
+    
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr 1fr;
+    padding: 36px 0px;
+
+    ul{
+        list-style-type: none;
+        display: inline-block;
+        display: block;
+        li {
+            display: inline-block;
+            color: #FFFFFF;
+            font-family: FuturaBookC;
+            font-size: 14px;
+            line-height: 16px;
+            text-transform: uppercase;
+            margin-right: 20px;
+        }
+    }
+}
+.left-logo{
+font-family: FuturaDemiC;
+font-size: 14px;
+line-height: 16px;
+text-transform: uppercase;
+color: #E3B873;
+display: block;
+}
+.tel{
+display: inline-block;
+font-family: FuturaDemiC;
+font-size: 14px;
+line-height: 16px;
+text-decoration-line: underline;
+color: #E3B873;
+display: block;
+}
+.button{
+    background: #E3B873;
+box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+border-radius: 2px;
+font-family: FuturaDemiC;
+font-size: 13px;
+line-height: 15px;
+text-align: center;
+text-transform: uppercase;
+padding: 13px 33px;
+color: #FFFFFF;
+display: block;
+
+}
+button{
+    margin-top: -18px;
+}
+.vertical-line{
+    font-family: FuturaDemiC;
+font-size: 14px;
+line-height: 16px;
+text-align: center;
+width: 82px;
+height: 707px;
+color: #E3B873;
+margin-left: 0px;
+border:1px solid black;
+writing-mode: tb-rl;
+float: left;
+}
+.header-banner{
+    background: url('img/image-4.3.jpg');
+    height: 707px;
+  max-width: 1356px;
+float: right;
+}
+.clear{
+  clear: both;
+}
+h1{
+    font-family: Yeseva One;
+font-style: normal;
+font-weight: normal;
+font-size: 40px;
+line-height: 53px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+.first-content{
+max-width: 1440px;
+height: 940px;
+background: 
+url('img/BACKGROUND-LINE.png') no-repeat,
+url('img/Frame.png') repeat-x 0px 500px ;
+    padding: 107px 0px 9px 100px;
+}
+.first-content-grid{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.first-content-left{
+    height: 390px;
+    border: 1px solid black;
+    background: gray;
+}
+.first-content-right{
+    height: 530px;
+    border: 1px solid black;
+    background: white;
+}
+.online-kontrol{
+    width: 200px;
+    height: 50px;
+    background: red;
+    margin-left:500px;
+    margin-top: 90px;
+}
+.second-content{
+    height: 2600px;
+    background-color: white;
+    position: relative;
+    //background: url('img/BACKGROUND-LINE.png');
+}
+.video{
+    max-width: 817px;
+    height: 434px;
+    background: yellow;
+    position: absolute;
+    top: -200px;
+    left: 50%;
+    margin-left: -410px;
+}
+.second-content-txt{
+    margin: 0px auto;
+    background: green;
+    max-width: 680px;
+    position: relative;
+    top: 300px;
+    p{
+        font-family: FuturaBookC;
+font-size: 20px;
+line-height: 34px;
+text-align: center;
+
+color: #363636;
+    }
+}
+.second-content-form{
+    max-width: 770px;
+    height: 110px;
+    margin: 0px auto;
+    background: black;
+    position: relative;
+    top: 400px;
+}
+.types-of-repair{
+    width: 200px;
+    height: 50px;
+    background: red;
+    margin: 0px auto;
+    margin-top: 490px;
+    position: relative;
+}
+.second-content-columns{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 1236px;
+    height: 608px;
+    margin: 0px auto;
+    margin-top: 40px;
+    position: relative;
+}
+.second-content-col{
+background: gray;
+}
+.second-content-col:nth-child(2){
+    margin: 0px 20px;
+}
+.second-content-last{
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    height: 800px;
+    margin-top: 124px;
+}
+.second-content-last-left{
+background: red;
+}
+.second-content-last-right{
+    background: black;
+    margin-right: 100px;
+}
+.third-content{
+    height: 729px;
+    background: url('img/image-5.1.jpg') no-repeat;
+    padding: 135px 100px 0px 100px;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+}
+.third-content-left{
+    height: 600px;
+    max-width: 300px;
+    background: yellow;
+}
+.third-content-right{
+    
+    position: relative;
+}
+table {
+border:1px solid black;
+position: absolute;
+top: -300px;
+    tr{
+        td{
+            border:1px solid black;
+            width: 354px;
+            height: 80px;
+            padding:20px; 
+        }
+    }
+}
+.fourth-content{
+    height: 720px;
+    background: white;
+    display: grid;
+}
+.fourth-content-txt{
+    margin: 0px auto;
+    background: green;
+    max-width: 763px;
+    height: 80px;
+    margin-top: 30px;
+    position: relative;
+    p{
+        font-family: FuturaBookC;
+font-size: 16px;
+line-height: 27px;
+text-align: center;
+color: #363636;
+    }
+}
+.design-project{
+    width: 200px;
+    height: 57px;
+    background: red;
+    margin: 0px auto;
+    margin-top: 200px;
+
+}
+.fourth-content-columns{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 1236px;
+    height: 660px;
+    margin: 0px auto;
+    margin-top: 40px;
+    position: relative;
+
+}
+.fourth-content-col{
+    background: gray;
+    }
+    .fourth-content-col:nth-child(2){
+        margin: 0px 20px;
+    }
+.fifth-content{
+    padding: 0px 100px 100px 100px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    height: 800px;
+    margin-top: 450px;
+}
+.fifth-content-left{
+background: blue;
+}
+.fifth-content-right{
+background: green;
+}
+.fifth-content-txt{
+    margin: 0px auto;
+    background: green;
+    max-width: 763px;
+    height: 80px;
+    margin-top: 30px;
+    position: relative;
+    p{
+        font-family: FuturaBookC;
+font-size: 16px;
+line-height: 27px;
+text-align: center;
+color: #363636;
+    }
+    margin-bottom: 300px;
+}
+.our-team{
+    width: 200px;
+    height: 57px;
+    background: red;
+    margin: 0px auto;
+    margin-top: 0px;
+
+}
+.fifth-content-columns{
+    display: grid;
+    margin: 0px auto;
+    grid-template-columns: 1fr 1fr 1fr;
+max-width: 1100px;
+position: absolute;
+top:280px;
+left: 50%;
+margin-left: -470px;
+z-index: 999;
+}
+.fifth-content-col{
+    background: gray;
+    height: 400px;
+    width: 300px;
+}
+.fifth-content-col:nth-child(2){
+    margin: 0px 20px 0px 0px;
+}
+.sixth-content{
+    background: white;
+    height: 1400px;
+    margin-top: 200px;
+    position: relative;
+}
+.fifth-content-next{
+    position: relative;
+    
+}
+.sixth-content-txt{
+    margin: 0px auto;
+    background: green;
+    max-width: 558px;
+    height: 140px;
+    position: absolute;
+    top: 300px;
+    left: 50%;
+margin-left: -270px;
+    p{
+        font-family: FuturaBookC;
+font-size: 16px;
+line-height: 34px;
+text-align: center;
+
+color: #363636;
+    }
+    margin-bottom: 300px;
+}
+.our-clients{
+    width: 200px;
+    height: 57px;
+    background: red;
+    margin: 0px auto;
+    top: 500px;
+    position: absolute;
+    left: 50%;
+margin-left: -100px;
+}
+.sixth-content-columns{
+     display: grid;
+    margin: 0px auto;
+    grid-template-columns: 1fr 1fr 1fr;
+max-width: 1200px;
+position: absolute;
+top:620px;
+left: 50%;
+margin-left: -470px;
+z-index: 999;
+}
+.sixth-content-col{
+    background: gray;
+    height: 400px;
+    width: 300px;
+}
+.sixth-content-col:nth-child(2){
+    margin: 0px 20px 0px 0px;
+}
+.forma{
+    max-width: 883px;
+    height: 446px;
+    background: black;
+    position: absolute;
+    top:1170px;
+left: 50%;
+margin-left: -450px;
+z-index: 999;
+}
+.seventh-content{
+    max-width: 1440px;
+    height: 680px;
+}
+.seventh-content-txt{
+    max-width: 590px;
+    height: 100px;
+    background: green;
+    margin-top: 260px;
+    margin:260px auto 50px auto;
+}
+.maps{
+    max-width: 886px;
+    height: 460px;
+    background: white;
+    margin: 0px auto;
+}
+.footer{
+    height: 103px;
+    background: black;
+}
+
+/******************************ADAPTIVE********************************/
+
+@media screen and (max-width: 375px) {
+    .online-kontrol{
+        width: 200px;
+        height: 50px;
+        background: red;
+       margin:90px auto;
+    }
+    .fifth-content-columns{
+        display: grid;
+        margin: 0px auto;
+        grid-template-columns: 1fr;
+    max-width: 1100px;
+    position: absolute;
+    top:280px;
+    left: 0px;
+    margin-left: 0px;
+    z-index: 999;
+    }
+    .fourth-content-columns{
+        display: grid;
+        grid-template-columns: 1fr;
+        max-width: 1236px;
+        height: 660px;
+        margin: 0px auto;
+        margin-top: 40px;
+        position: relative;
+    
+    }
+    .fourth-content-col{
+        background: gray;
+        height: 400px;
+        width: 340px;
+        }
+        .fourth-content-col:nth-child(2){
+            margin: 20px 0px;
+        }
+
+    .sixth-content-columns{
+        display: grid;
+       margin: 0px auto;
+       grid-template-columns: 1fr;
+   max-width: 1200px;
+   position: absolute;
+   top:620px;
+   left: 50%;
+   margin-left: -470px;
+   z-index: 999;
+   }
+   .second-content-columns{
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 1236px;
+    height: 608px;
+    margin: 0px auto;
+    margin-top: 40px;
+    position: relative;
+}
+.third-content{
+    height: 729px;
+    background: url('img/image-5.1.jpg') no-repeat;
+    padding: 135px 100px 0px 100px;
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+.button{
+    display:none;
+}
+.header-menu {
+    grid-template-columns: 1fr 1fr;
+    padding-left: 20px;
+    padding-right: 20px;
+    ul{
+    display: none;
+    }
+}
+    .tel{
+    color:white;
+    text-align: right;
+    }
+    .vertical-line{
+      display: none;
+    }
+    .left-logo{
+        font-size: 12px;
+        line-height: 14px;
+        }
+        .header-banner{
+            background: url('img/image-4.3.jpg');
+            height: 476px;
+          max-width: 1356px;
+        float: right;
+        }
+        h1{
+            padding-top: 200px;
+          text-align: center;
+font-style: normal;
+font-weight: normal;
+font-size: 23px;
+line-height: 26px;
+        }
+        .first-content-grid{
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+        .first-content-left{
+            height: 240px;
+            background: gray;
+            margin-bottom: 30px;
+        }
+        .first-content-right{
+            height: 480px;
+            background: white;
+        }
+        .first-content{
+            max-width: 1440px;
+                padding: 20px;
+                background: #131313;
+            }
+            .video{
+                width: 340px;
+                height: 207px;
+                background: yellow;
+                position: absolute;
+                top: 0px;
+                left:0%;
+                margin-left: 20px;
+            }
+            .second-content{
+                height: 2600px;
+                background-color:#131313;
+                position: relative;
+                padding: 0px 20px 100px 20px;
+                //background: url('img/BACKGROUND-LINE.png');
+            }
+            .second-content-txt{
+                margin: 0px auto;
+                background: green;
+                max-width: 680px;
+                position: relative;
+                top: 250px;
+                p{
+                    font-family: FuturaBookC;
+            font-size: 20px;
+            line-height: 34px;
+            text-align: center;
+            
+            color: #363636;
+                }
+            }
+            .second-content-form{
+                max-width: 770px;
+                height: 310px;
+                margin: 0px auto;
+                background: black;
+                position: relative;
+                top: 300px;
+            }  
+            .second-content-col{
+                background: gray;
+               height: 460px;
+                }
+                .second-content-col:nth-child(2){
+                    margin: 30px 0px !important; 
+                }
+            .types-of-repair{
+                width: 200px;
+                height: 50px;
+                background: red;
+                margin: 0px auto;
+                margin-top: 350px;
+                position: relative;
+            }
+            .second-content-last{
+                display: none;
+            }
+            .third-content{
+                height: 242px;
+                width: 340px;
+                background: url('img/image-5.1.jpg') no-repeat;
+                padding: 0px;
+                display: block;
+                position: absolute;
+                top:4120px;
+                left: 20px;
+            }
+            .third-content-left{
+               display: none;
+            }
+            table{
+                display:none;
+            }
+            .fourth-content-txt{
+                margin: 0px auto;
+                background: green;
+                max-width: 763px;
+                height: 160px;
+                margin-top: 30px;
+                position: relative;
+                p{
+                    font-family: FuturaBookC;
+            font-size: 16px;
+            line-height: 27px;
+            text-align: center;
+            color: #363636;
+                }
+            }
+            .fifth-content-left{
+                display: none;
+                }
+                .fifth-content-right{
+                display: none;
+                }
+                .our-team{
+                    width: 200px;
+                    height: 57px;
+                    background: red;
+                    margin: 0px auto;
+                    margin-top: -300px;
+                
+                }
+                .fifth-content-txt{
+                    display: none;
+                }
+                .sixth-content{
+                    background: #131313;
+                }
+                .sixth-content-txt{
+                    display: none;
+                }
+                .fifth-content-columns{
+                    display: grid;
+                    margin: 0px auto;
+                    grid-template-columns: 1fr;
+                max-width: 1100px;
+                position: absolute;
+                margin-top: -170px;
+                margin-left: 20px;
+                z-index: 999;
+                }
+                .fifth-content-col{
+                    background: gray;
+                    height: 400px;
+                    width: 340px;
+                    margin-bottom: 20px !important;
+                }
+                .sixth-content-col{
+                    display: none;
+                }
+                .forma{
+                    width: 340px;
+                    height: 446px;
+                    background: black;
+                    position: absolute;
+                    top:1170px;
+                left: 50%;
+                margin-left: -170px;
+                z-index: 999;
+                }
+                
+                .seventh-content-txt{
+                    display: none;
+                }
+                .maps{
+                    width: 340px;
+                    height: 320px;
+                    background: white;
+                    margin: 260px auto 0px auto;
+                }
+                .seventh-content{
+                    max-width: 1440px;
+                    height: 370px;
+                }
+                .footer{
+                    width: 340px;
+                    height: 200px;
+                    background: black;
+                    margin: 0px auto 40px;
+                }
+                .footer{
+                    .left-logo{
+                    display: none;
+                    }
+                    .tel{
+                    
+                    display: none;
+                    }
+                }
+}
